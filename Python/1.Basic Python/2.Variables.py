@@ -1,0 +1,15 @@
+a = 1  # int (Immutable)
+b = 1.0  # flaot (Immutable)
+c = 1 + 1j  # complex (Immutable)
+d = "Hello World!"  # str (Immutable)
+e = [0, 1.0, 1 + 1j, "Hello World!", [1, 2, 3], {1: 1}]  # list (Mutable)
+f = (0, 1.0, 1 + 1j, "Hello World!", [1, 2, 3], {1: 1})  # tuple (Immutable)
+g = range(0, 10, 1)  # range (Immutable)
+h = {0: 0, "0": 0, "User": a, "H": {1: 1}}  # dict (Mutable)
+i = {0, 1, 2, 3, 4, 4, 3, 1, 0, 9, 7}  # set (Mutable)
+j = frozenset(i)  # frozenset (Immutable)
+k = True  # bool (Immutable) [True, False]
+l = bytes(1)  # bytes
+m = b"Python!"  # bytearray
+n = memoryview(bytes(5))  # memoryview
+o = None  # NoneType
